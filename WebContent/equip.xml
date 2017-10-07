@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application number="000" date="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+   xsi:noNamespaceSchemaLocation="http://140.120.78.192:8090/EquipManage/form.xsd">
+    <org></org>
+	<activity></activity>
+	<location></location>
+	<mixer>O1v96i</mixer>
+	<console>C24</console>
+	<speaker>10</speaker>
+	<mic>10</mic>
+	<par>5</par>
+	<led>10</led>
+	<wire>15</wire>
+	<line>15</line>
+	<price>0</price>
+</application>

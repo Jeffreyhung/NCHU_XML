@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><application xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" date="2017-06-21" number="20170621914" xsi:noNamespaceSchemaLocation="http://140.120.78.192:8090/EquipManage/form.xsd">
+    <org>資管系</org>
+	<activity>送舊</activity>
+	<location>小禮堂</location>
+	<mixer>BX2442</mixer>
+	<console>KK256</console>
+	<speaker>4</speaker>
+	<mic>8</mic>
+	<par>8</par>
+	<led>6</led>
+	<wire>18</wire>
+	<line>1</line>
+	<price>2100</price>
+</application>

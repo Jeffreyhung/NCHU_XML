@@ -1,0 +1,63 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" >
+    <xs:element name="application" type="application_type"/>
+		<xs:complexType name="application_type">
+			<xs:sequence>
+				<xs:element name="org" type="xs:string"/>
+				<xs:element name="activity" type="xs:string"/>
+				<xs:element name="location" type="xs:string"/>
+				<xs:element name="mixer" type="xs:string"/>
+				<xs:element name="console" type="xs:string" />
+				<xs:element name="speaker">
+					<xs:simpleType>
+						<xs:restriction base="xs:integer">
+							<xs:minInclusive value="01"/>
+							<xs:maxInclusive value="10"/>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="mic">
+					<xs:simpleType>
+						<xs:restriction base="xs:integer">
+							<xs:minInclusive value="01"/>
+							<xs:maxInclusive value="10"/>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="par">
+					<xs:simpleType>
+						<xs:restriction base="xs:integer">
+							<xs:minInclusive value="01"/>
+							<xs:maxInclusive value="10"/>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="led">
+					<xs:simpleType>
+						<xs:restriction base="xs:integer">
+							<xs:minInclusive value="01"/>
+							<xs:maxInclusive value="10"/>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="wire">
+					<xs:simpleType>
+						<xs:restriction base="xs:integer">
+							<xs:minInclusive value="01"/>
+							<xs:maxInclusive value="20"/>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="line">
+					<xs:simpleType>
+						<xs:restriction base="xs:integer">
+							<xs:minInclusive value="01"/>
+							<xs:maxInclusive value="20"/>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="price" type="xs:integer"/>				
+			</xs:sequence>
+			<xs:attribute name="number" type="xs:integer"/>
+			<xs:attribute name="date" type="xs:string"/>
+		</xs:complexType>
+</xs:schema>
